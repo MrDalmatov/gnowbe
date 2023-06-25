@@ -6,18 +6,22 @@
 }
 
 .button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: $primary-btn-bg;
-  border: none;
+  @include flexible ();
+  background-color: $primary-btn-bg-08;
+  border: 2px solid $primary-btn-bg;
   border-radius: 0.8rem;
-  color: $white;
+  color: $primary-btn-bg;
   padding: 1.6rem 2.4rem;
   font-size: 1.4rem;
   line-height: 2rem;
   font-weight: 600;
   cursor: pointer;
+}
+
+.button--primary {
+  background-color: $primary-btn-bg;
+  border: none;
+  color: $white;
 }
 
 .header__login {

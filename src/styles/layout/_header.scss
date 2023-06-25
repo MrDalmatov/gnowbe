@@ -9,7 +9,6 @@ header {
 }
 
 .header__nav {
-  margin-top: 2px;
   margin-left: 10rem;
 }
 
@@ -18,10 +17,10 @@ header {
   gap: 2rem;
 }
 
-.navigation__link {
+.navigation__item .navigation__link {
   font-size: 1.5rem;
   font-weight: 500;
-  line-height: 2rem;
+  line-height: 1;
 }
 
 .dropdown {
