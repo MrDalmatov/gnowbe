@@ -1,0 +1,50 @@
+.welcome {
+  height: 100vh;
+  background-image: url(../assets/images/Group_42.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+
+    border-bottom: 1px solid #D9D9D9;
+  }
+}
+
+.welcome__content {
+  z-index: 5;
+
+  width: 55%;
+  margin-top: 12rem;
+
+  .welcome__text {
+    margin-top: 4rem;
+  }
+
+  .buttons-wrapper {
+    column-gap: 2rem;
+    margin-top: 3.2rem;
+  }
+
+  .promo {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 2rem;
+    letter-spacing: 0.225px;
+    text-transform: uppercase;
+    opacity: 0.2;
+    margin-top: 2.2rem;
+    display: flex;
+    align-items: center;
+
+    &::before {
+      content: url(../assets/images/icons/material-symbols_magic-button.svg);
+      margin-right: 1rem;
+    }
+  }
+
+}
+

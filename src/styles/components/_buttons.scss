@@ -8,7 +8,7 @@
 .button {
   @include flexible ();
   background-color: $primary-btn-bg-08;
-  border: 2px solid $primary-btn-bg;
+  border: 1px solid $primary-btn-bg;
   border-radius: 0.8rem;
   color: $primary-btn-bg;
   padding: 1.6rem 2.4rem;
