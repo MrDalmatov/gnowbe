@@ -1,0 +1,15 @@
+.advantages-card {
+  .advantages-card__title {
+    @include text-basic (3rem, 800, $heading-color, 3.4rem);
+    letter-spacing: -0.3px;
+    margin-top: 2rem;
+  }
+  .advantages-card__text {
+    @include text-basic (1.6rem, normal, $neutral-700, 2.4rem);
+    letter-spacing: 0.16px;
+    margin-top: 1.6rem;
+  }
+}
+
+
+

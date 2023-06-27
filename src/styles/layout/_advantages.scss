@@ -1,0 +1,38 @@
+.advantages {
+  padding-top: 8rem;
+  padding-bottom: 12rem;
+  background-color: $bg-color-blue;
+}
+
+.advantages__title {
+  text-align: center;
+  position: relative;
+
+  &::before {
+    content: url(../assets/images/icons/title_lines.svg);
+    position: absolute;
+    top: -85%;
+    left: 37%;
+  }
+
+  &::after {
+    content: url(../assets/images/icons/title_lines.svg);
+    position: absolute;
+    transform: scale(-1, 1);
+    top: -85%;
+    right: 39%;
+  }
+}
+
+.advantages__text {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.advantages__wrapper {
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 8rem;
+}

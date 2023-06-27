@@ -3,3 +3,10 @@
   align-items: center;
   justify-content: center;
 }
+
+@mixin text-basic ($size, $weight, $color: $heading-color, $line-height: 6rem) {
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+    line-height: $line-height;
+}
