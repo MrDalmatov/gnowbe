@@ -29,3 +29,17 @@
   line-height: 2rem;
   margin-top: 2px;
 }
+
+.feature__button {
+  font-size: 1.5rem;
+  color: $white;
+  line-height: 2rem;
+  font-weight: 500;
+
+  padding: 1rem 1.6rem;
+  border: none;
+  border-radius: 8px;
+  background-color: $heading-color;
+
+  cursor: pointer;
+}

@@ -1,0 +1,56 @@
+.feature {
+  height: 517px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(100% / 3);
+
+  img {
+    width: 100%;
+    max-height: 245px;
+  }
+
+  .feature__content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+
+    .feature__title {
+      @include text-basic (2.4rem, 800, #111827, 3.2rem);
+      justify-self: flex-start;
+      margin-top: 2.4rem;
+    }
+
+    .feature__text {
+      @include text-basic (1.6rem, normal, #374151, 2.4rem);
+      letter-spacing: 0.16px;
+      margin-top: auto;
+      height: 72px;
+      overflow: hidden;
+      position: relative;
+
+      &::after {
+        content: "";
+        text-align: right;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 70%;
+        height: 1.2em;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), white 100%);
+        pointer-events: none;
+      }
+    }
+
+    .feature__button {
+      margin-top: 2.4rem;
+      align-self: flex-start;
+    }
+  }
+
+  .pagination {
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,39 @@
+.features {
+  padding: 8rem 0;
+
+  .features__title {
+    text-align: center;
+    position: relative;
+
+    &::before {
+      content: url(../assets/images/icons/Underline\ 3.svg);
+      position: absolute;
+      bottom: -47%;
+      left: 25.5%;
+    }
+    &::after {
+      content: url(../assets/images/icons/crown.svg);
+      position: absolute;
+      top: -70%;
+      right: 7%;
+    }
+  }
+}
+
+.slider-wrapper {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  .slider {
+    display: flex;
+    column-gap: 3.2rem;
+  }
+
+  .pagination {
+    display: flex;
+    align-items: center;
+    column-gap: 2.4rem;
+    margin-top: 8rem;
+    align-self: center;
+  }
+}
