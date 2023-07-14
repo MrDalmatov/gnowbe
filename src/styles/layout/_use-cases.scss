@@ -1,0 +1,60 @@
+.use-cases {
+  padding: 8rem 0;
+  .use-cases__title {
+    position: relative;
+    text-align: center;
+    &::after {
+      content: url(../assets/images/icons/diamond_red.svg);
+      position: absolute;
+      right: 18%;
+      bottom: 0;
+    }
+  }
+
+  .use-cases__text {
+    text-align: center;
+  }
+}
+
+.filter {
+  margin-top: 4.8rem;
+
+  .filter__tags {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    row-gap: 2.4rem;
+
+    .filter-row {
+      display: flex;
+      column-gap: 2.4rem;
+    }
+  }
+
+  .filter__content {
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+
+    .filter__title {
+      @include text-basic (3rem, 900, #333, 3.6rem);
+      margin-bottom: 2.4rem;
+
+      &::before {
+        content: url(../assets/images/icons/brain.svg);
+        margin-right: 0.8rem;
+      }
+    }
+
+    .filter__text {
+      @include text-basic (1.8rem, 400, #374151, 2.8rem);
+      letter-spacing: 0.18px;
+      margin-bottom: 4.8rem;
+    }
+
+    .buttons-wrapper {
+      gap: 2rem;
+    }
+  }
+}
