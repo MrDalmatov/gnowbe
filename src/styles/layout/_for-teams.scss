@@ -1,0 +1,31 @@
+.for-teams {
+  padding: 8rem 0 6.4rem;
+
+  background-color: $orange-bg;
+
+  background-image: url(../assets/images/side-image.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+
+  .container {
+    display: flex;
+    justify-content: end;
+
+    .for-teams__content {
+      width: 50%;
+      padding-left: 3.2rem;
+
+      .for-teams__title {
+        color: $white;
+        opacity: 0.800000011920929;
+        margin-bottom: 2rem;
+      }
+
+      .for-teams__text {
+        @include text-basic (1.8rem, 400, #101010, 2.8rem);
+        letter-spacing: 0.18px;
+        margin-bottom: 4rem;
+      }
+    }
+  }
+}

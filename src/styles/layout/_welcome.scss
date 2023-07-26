@@ -46,23 +46,23 @@
     margin-top: 3.2rem;
   }
 
-  .promo {
-    color: #000;
-    font-size: 2rem;
-    font-weight: 800;
-    line-height: 2rem;
-    letter-spacing: 0.225px;
-    text-transform: uppercase;
-    opacity: 0.2;
-    margin-top: 2.2rem;
-    display: flex;
-    align-items: center;
+}
 
-    &::before {
-      content: url(../assets/images/icons/material-symbols_magic-button.svg);
-      margin-right: 1rem;
-    }
+.promo {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 2rem;
+  letter-spacing: 0.225px;
+  text-transform: uppercase;
+  opacity: 0.2;
+  margin-top: 2.2rem;
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: url(../assets/images/icons/material-symbols_magic-button.svg);
+    margin-right: 1rem;
   }
-
 }
 

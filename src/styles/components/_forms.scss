@@ -1,0 +1,17 @@
+.subscribe-form {
+  display: flex;
+  .subscribe-input {
+    padding: 1.4rem 1.6rem;
+    border: none;
+    border-radius: 8;
+    margin-right: 2.4rem;
+    width: 100%;
+  }
+
+  .button--subscribe {
+    border: none;
+    background-color: $heading-color;
+    color: $white;
+  }
+}
+
